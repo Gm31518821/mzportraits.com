@@ -1,0 +1,155 @@
+/* DEVELOPER: Erin Ponce, IS117-003, Fall 2023 */
+.navbar {
+    background-color: #CFDEE7; /*#e8ebea;*/
+}
+
+.carousel-inner {
+    margin: 1em auto 2em;
+    padding: auto;
+    max-width: 90%;
+}
+
+body h1 {
+    font-size: 3em;
+    margin-top: 1em;
+    font-family: sans-serif;
+}
+
+body h3 {
+    font-family: sans-serif;
+}
+
+body h2 {
+    font-size: 3em;
+    margin-top: 2em;
+    font-family: sans-serif;
+}
+
+.btn btn-outline-success {
+    background-color: #f4b942;
+}
+
+#carouselExampleAutoplaying {
+    margin-bottom: 5em;
+}
+
+.carousel-control-prev {
+    margin-left: .5em;
+}
+
+.carousel-control-next {
+    margin-right: .5em;
+}
+
+.container-md-fluid {
+    background-color: #EFF2F1;
+    padding-top: 3em;
+    padding-bottom: 7em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.container-md-fluid h2 {
+    padding-bottom: .5em;
+    font-size: 5 rem;
+    font-family: Montserrat Variablefont Wght, sans-serif;
+    color: #333;
+}
+
+.card h-100 {
+    padding-bottom: 2em;
+}
+
+.card-body {
+    background-color: #CFDEE7;
+    color: #333;
+    padding-bottom: 1em;
+}
+
+.btn-primary {
+    background-color: #6B9AC4;
+    color: white;
+}
+
+
+/* About Me Page */
+#about me {
+    background-color: white;
+    font-family: sans-serif;
+    padding: 4em;
+}
+
+#about {
+    margin-top: 1em;
+    background-color: white;
+    margin-bottom: 4em;
+    padding: .3em 2em 1em;
+}
+
+
+/*
+.col-md-5 me-md-4 mt-md-4 {
+    float: left;
+}
+*/
+
+#Reinboee Cat {
+    float: left;
+    margin-right: 20px;
+}
+
+/*
+a:focus, a:hover {
+    font-style: italic;
+}
+*/
+
+/* Personal Work, Commission Page, Contact */
+.jumbotron {
+    margin-bottom: 4em;
+}
+
+.lead {
+    font-size: 1rem;
+}
+
+.label {
+
+}
+
+/* Font-Adjustment */
+@media only screen and (max-width: 734px) {
+    body h1 {
+        font-size: 250%
+    }
+    body h2 {
+        font-size: 250%
+    }
+    body h3 {
+        font-size: 150%;
+    }
+    .text {
+        font-size: 95%
+    }
+    .card-title {
+        font-size: 110%;
+    }
+    .card-text {
+        font-size: 98%;
+    }
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6B9AC4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+
